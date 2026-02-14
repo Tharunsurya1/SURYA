@@ -1,93 +1,196 @@
-<!-- README.md -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>M. Tharun Surya | AI & ML Engineer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
 
-<h1 align="center">Hi 👋, I'm M. Tharun Surya</h1>
-<h3 align="center">Aspiring AI & ML Engineer | Python & ML Learner | Project Explorer</h3>
+        body {
+            background-color: #0f172a;
+            color: #f1f5f9;
+            line-height: 1.6;
+        }
 
----
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: #1e293b;
+        }
 
-🌟 Welcome to my GitHub! I'm a passionate CSE student specializing in **AI & ML**.  
-I love building AI models, chatbots, and exploring Earth Observation data for urban planning. I enjoy learning continuously and turning ideas into real-world projects.
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
 
----
+        header p {
+            color: #94a3b8;
+            font-size: 1.2rem;
+        }
 
-### 👨‍💻 About Me
+        section {
+            padding: 40px 10%;
+        }
 
-- 🎯 **Aspiring AI & ML Engineer**
-- 🐍 Currently learning **Python**, **Machine Learning**, and **Data Science tools**
-- 💡 Built mini projects like:
-  - **Smart City Planning using EO data**
-  - **AI-powered Chatbot for student queries**
-  - **Brain-Level Analysis App**
-- 🏢 Completed virtual internships from:
-  - **SPARK — IIT Roorkee**
-  - **Elevate X Club — Technical Lead**
-  - **AI Research Group — ML Intern**
-- 🌱 Next up: Deep dive into **advanced ML algorithms**, NLP, and real-world AI applications
-- 📫 Contact me at: `yourname@example.com`
+        h2 {
+            margin-bottom: 20px;
+            border-bottom: 2px solid #38bdf8;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
 
----
+        ul {
+            list-style-type: none;
+            margin-top: 15px;
+        }
 
-### 🛠️ Languages, Tools & Technologies:
+        ul li {
+            margin-bottom: 10px;
+        }
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/GoogleEarthEngine-4285F4?style=for-the-badge&logo=googleearth&logoColor=white" />
-</p>
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
 
----
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
 
-### 🚀 Projects
+        .skills span {
+            display: inline-block;
+            background: #334155;
+            padding: 8px 12px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
 
-| Name | Description | Tech Stack |
-|------|-------------|------------|
-| 🌆 **Smart City Planning** | Analysis of urban green cover using EO data; built risk maps for planning. | Python, Google Earth Engine, Rasterio |
-| 🤖 **AI-Powered Chatbot** | Student query chatbot with natural language understanding. | Python, NLP |
-| 🧠 **Brain-Level Analysis App** | Logic, pattern recognition & problem-solving tests. | Python, Tkinter |
-| ☁️ **SPARK Internship Project** | EO-based urban planning project under IIT Roorkee mentorship. | Python, Google Earth Engine |
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e293b;
+            margin-top: 40px;
+            color: #94a3b8;
+        }
 
----
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
 
-### 🎓 Education & Learning
+        a:hover {
+            text-decoration: underline;
+        }
 
-- 📘 **Currently Learning**:
-  - Python programming, OOP, and data structures
-  - Machine Learning basics and algorithms
-  - Chatbot development & EO data analysis
-- 📚 **Next Steps**:
-  - Deep learning frameworks (TensorFlow, PyTorch)
-  - NLP, Computer Vision, and Data Science projects
-  - Kaggle challenges & portfolio expansion
+        @media (max-width: 768px) {
+            section {
+                padding: 30px 5%;
+            }
+        }
 
----
+    </style>
+</head>
 
-### 📈 GitHub Stats
+<body>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" alt="Tharun's GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" />
-</p>
+<header>
+    <h1>M. Tharun Surya</h1>
+    <p>AI & ML Engineer in Progress | Hackathon Competitor | Real-World Builder</p>
+</header>
 
----
+<section>
+    <h2>About Me</h2>
+    <ul>
+        <li>🎯 CSE (AI & ML Specialization) Student</li>
+        <li>🏆 Selected for SPARK — IIT Roorkee (3 Months Startup Project Training)</li>
+        <li>🏅 Finalized for Smart India Hackathon (SIH)</li>
+        <li>💻 Participated in 6 Hackathons</li>
+        <li>🔍 Focused on Applied ML & Urban Analytics</li>
+    </ul>
+</section>
 
-### 🌐 Let's Connect
+<section>
+    <h2>Experience</h2>
 
-<p>
-  <a href="www.linkedin.com/in/m-tharun-surya-54a226305" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mail to:tharunmellacheruvu@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+    <div class="card">
+        <h3>SPARK — IIT Roorkee Intern</h3>
+        <p>Worked on real-world startup-oriented AI project using Earth Observation data. Built risk mapping and green cover analysis models.</p>
+    </div>
 
----
+    <div class="card">
+        <h3>Elevate X Club — Technical Lead</h3>
+        <p>Led technical initiatives and mentored peers in ML fundamentals.</p>
+    </div>
 
-> 📝 *"Learning to write programs stretches your mind and helps you think better – Steve Jobs"*
+    <div class="card">
+        <h3>AI Research Group — ML Intern</h3>
+        <p>Worked on ML experimentation, implementation and evaluation.</p>
+    </div>
 
-⭐️ Thank you for visiting my profile!
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>Smart City Planning</h3>
+            <p>Urban green cover & risk zone mapping using EO data.</p>
+        </div>
+
+        <div class="card">
+            <h3>AI-Powered Chatbot</h3>
+            <p>NLP-based student query assistant built using Python.</p>
+        </div>
+
+        <div class="card">
+            <h3>Brain-Level Analysis App</h3>
+            <p>Cognitive logic & pattern recognition testing system.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Technical Skills</h2>
+
+    <div class="skills">
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>NLP</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>MySQL</span>
+        <span>Google Earth Engine</span>
+        <span>Git & GitHub</span>
+        <span>AWS Basics</span>
+        <span>Jupyter Notebook</span>
+    </div>
+
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tharunmellacheruvu@gmail.com">tharunmellacheruvu@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/m-tharun-surya-54a226305" target="_blank">View Profile</a></p>
+</section>
+
+<footer>
+    <p>© 2026 M. Tharun Surya | Building. Learning. Competing.</p>
+</footer>
+
+</body>
+</html>
